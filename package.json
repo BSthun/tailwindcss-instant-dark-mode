@@ -1,0 +1,27 @@
+{
+	"name": "@bsthun/tailwindcss-instant-dark-mode",
+	"version": "1.0.0",
+	"description": "A tailwind plugin that make a class to instant apply both light and dark variants of a color automatically.",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/BSthun/tailwindcss-instant-dark-mode.git"
+	},
+	"scripts": {
+		"format": "prettier --write ."
+	},
+	"keywords": [
+		"tailwind",
+		"dark-mode"
+	],
+	"author": "BSthun <bsthun@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/BSthun/tailwindcss-instant-dark-mode/issues"
+	},
+	"homepage": "https://github.com/BSthun/tailwindcss-instant-dark-mode#readme",
+	"devDependencies": {
+		"@types/tailwindcss": "^3.0.11",
+		"prettier": "^3.4.2",
+		"tailwindcss": "^2.0.0"
+	}
+}

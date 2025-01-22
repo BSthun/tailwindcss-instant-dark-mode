@@ -1,0 +1,21 @@
+# environment
+.env
+
+# local file
+*.local
+
+# log
+*.log
+*-debug.log*
+
+# dependency
+node_modules/
+dist/
+dist-ssr/
+
+# editor
+.vscode/
+.idea/
+
+# os
+.DS_Store
