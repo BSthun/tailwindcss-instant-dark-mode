@@ -12,12 +12,11 @@ Adding new color class to tailwindcss, topup from original class with `-dark` pr
 | `text-kmutt-800 dark:text-kmutt-200` | `text-kmutt-800-dark` |
 | `hover:border-blue-300 dark:hover:border-blue-700` | `hover:border-blue-300-dark` |
 
-Supported colors properties:
+#### Supported colors properties
 - backgroundColor / `bg-`
 - borderColor / `border-`
 - color / `text-`
-- ringColor / `border-`
-- divideColor / `ring-`
+- ringColor / `ring-`
 - divideColor / `divide-`
 - placeholderColor / `placeholder-`
 

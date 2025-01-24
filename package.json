@@ -1,7 +1,8 @@
 {
 	"name": "@bsthun/tailwindcss-instant-dark-mode",
-	"version": "1.0.0",
+	"version": "1.0.3",
 	"description": "A tailwind plugin that make a class to instant apply both light and dark variants of a color automatically.",
+	"main": "index.ts",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/BSthun/tailwindcss-instant-dark-mode.git"

@@ -4,8 +4,8 @@ export type tailwindInstantDarkModeConfig = {
 	colorMap: Record<string, string> | null
 }
 
-export const tailwindcssInstantDarkMode = (config?: tailwindInstantDarkModeConfig) => {=
-	const getDarkEquivalent = (color: string) => {=
+export const tailwindcssInstantDarkMode = (config?: tailwindInstantDarkModeConfig) => {
+	const getDarkEquivalent = (color: string) => {
 		if (!config)
 			config = {
 				colorMap: null,

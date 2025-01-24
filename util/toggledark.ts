@@ -1,6 +1,3 @@
-const userPref = localStorage.getItem('theme')
-const systemPref = window.matchMedia('(prefers-color-scheme: dark)').matches
-
 const apply = (isDark: boolean) => {
 	const root = document.documentElement
 	if (isDark) {
@@ -11,6 +8,9 @@ const apply = (isDark: boolean) => {
 }
 
 const initDarkMode = () => {
+	const userPref = localStorage.getItem('theme')
+	const systemPref = window.matchMedia('(prefers-color-scheme: dark)').matches
+
 	if (userPref === 'dark') {
 		apply(true)
 	} else if (userPref === 'light') {
